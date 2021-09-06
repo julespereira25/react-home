@@ -1,0 +1,44 @@
+.navbarlink {
+  &__list {
+    list-style-type: none;
+    margin: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    @media all and (max-width: 990px) {
+      display: none;
+    }
+  }
+
+  &__content {
+    text-transform: uppercase;
+    padding: 14px 15px;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  &__Href {
+    font-family: Exo;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    padding: 0;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+    &:hover {
+      border-bottom: 1px solid #fff;
+
+      @media all and (max-width: 990px) {
+        border-bottom: 0px solid #fff;
+      }
+    }
+  }
+}

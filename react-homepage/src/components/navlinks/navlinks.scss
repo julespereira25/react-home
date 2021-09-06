@@ -1,0 +1,42 @@
+.gritzo {
+  @media all and (max-width: 990px) {
+    display: block;
+    padding-left: 19px;
+    width: 100px;
+    padding-bottom: 20px;
+  }
+}
+
+.close {
+  @media all and (max-width: 990px) {
+    display: block;
+    padding-left: 250px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  @media all and (max-width: 425px) {
+    display: block;
+    padding-left: 150px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+}
+
+.list {
+  @media all and (max-width: 990px) {
+    display: block;
+    z-index: 100;
+  }
+}
+
+.sidebarList {
+  padding-right: 10px;
+}
+
+.sidebarLink {
+  color: #222b68;
+  cursor: pointer;
+}
