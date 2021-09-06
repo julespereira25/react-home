@@ -1,0 +1,123 @@
+.supermilk {
+  background-color: #f8f8f8;
+  display: grid;
+  grid-template-columns: repeat(10, 0.5fr);
+  grid-template-rows: repeat(15, 0.01fr);
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  &__image {
+    grid-row: 4;
+    grid-column: 2/3;
+
+    &__kids {
+      width: 200px;
+    }
+
+    @media all and (max-width: 1024px) {
+      display: none;
+    }
+  }
+
+  &__cards {
+    grid-row: 5;
+    grid-column: 3/9;
+    border-style: solid;
+    border-color: #d0021b;
+    margin-top: 20px;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #d0021b;
+
+    @media all and (max-width: 1024px) {
+      grid-column: 2/10;
+    }
+
+    &__content {
+      grid-column: 5;
+      border-style: solid;
+      border-color: #d0021b;
+      margin-top: 20px;
+      border-width: 1px;
+      border-radius: 10px;
+      padding: 10px 20px;
+      background-color: #d0021b;
+
+      @media all and (max-width: 768px) {
+        flex-direction: column;
+      }
+    }
+  }
+
+  &__header {
+    color: #2c2c2c;
+    text-align: center;
+    font-weight: 900;
+    line-height: 50px;
+    font-family: Exo;
+    letter-spacing: 0;
+    margin: 0 0 15px;
+    font-size: 37px;
+    font-style: italic;
+    text-transform: uppercase;
+    grid-column: 2/10;
+    grid-row: 3/4;
+
+    @media all and (max-width: 768px) {
+      font-size: 24px;
+      line-height: 35px;
+    }
+  }
+
+  &__content {
+    display: grid;
+    grid-column: 3/9;
+    grid-row: 4/5;
+    grid-gap: 10px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+    &__images {
+      width: 50px;
+      border-radius: 0;
+      border: 3px none #919da9;
+      padding: 0;
+    }
+
+    &__cards {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+span {
+  color: #f56700;
+  padding-left: 15px;
+}
+
+.supermilk__cards1 {
+  font-family: Exo;
+  font-size: 44px;
+  line-height: 1.4em;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+.supermilk__cards2 {
+  font-size: 16px;
+  line-height: 1.4em;
+  margin: 0 0 0 -30px;
+  color: #fff;
+  padding-left: 112px;
+
+  @media all and (max-width: 768px) {
+    padding-left: 0px;
+    text-align: center;
+    margin: 0px;
+  }
+}
