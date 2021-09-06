@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="Group_12371" data-name="Group 12371" transform="translate(9020 -9480)">
+    <g id="Group_12367" data-name="Group 12367">
+      <g id="Group_11404" data-name="Group 11404" transform="translate(1743 -4933)">
+        <rect id="Rectangle_4114" data-name="Rectangle 4114" width="16" height="16" transform="translate(-10763 14413)" fill="none"/>
+        <path id="Subtraction_2" data-name="Subtraction 2" d="M8,10H1A1,1,0,0,1,0,9V1A1,1,0,0,1,1,0H13a1,1,0,0,1,1,1V7H13V3.5H1V9H8v1ZM1,1V2.5H13V1Z" transform="translate(-10762 14416)" fill="#fff"/>
+        <rect id="Rectangle_4140" data-name="Rectangle 4140" width="5" height="1" transform="translate(-10760 14423)" fill="#fff"/>
+        <path id="Path_10944" data-name="Path 10944" d="M9.841,4.4H9.414V3.537a1.28,1.28,0,1,0-2.561,0V4.4H6.427A.427.427,0,0,0,6,4.829V7.39a.427.427,0,0,0,.427.427H9.841a.427.427,0,0,0,.427-.427V4.829A.427.427,0,0,0,9.841,4.4ZM7.28,3.537a.854.854,0,1,1,1.707,0V4.4H7.28ZM9.841,7.39H6.427V4.829H9.841Z" transform="translate(-10759.2 14419.031)" fill="#fff" stroke="#fff" stroke-width="0.2"/>
+      </g>
+    </g>
+  </g>
+</svg>
